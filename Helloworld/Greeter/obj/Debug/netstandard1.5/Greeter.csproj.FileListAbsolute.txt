@@ -1,0 +1,9 @@
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.deps.json
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.dll
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\bin\Debug\netstandard1.5\Greeter.pdb
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.AssemblyInfoInputs.cache
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.AssemblyInfo.cs
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.csproj.CoreCompileInputs.cache
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.dll
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.pdb
+C:\grpc-poc\grpc\examples\csharp\Helloworld\Greeter\obj\Debug\netstandard1.5\Greeter.csprojAssemblyReference.cache

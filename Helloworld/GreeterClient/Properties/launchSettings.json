@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GreeterClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "serverip": "dns:///jitetestserver.southeastasia.data.azurecr-test.io"
+      }
+    }
+  }
+}

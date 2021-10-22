@@ -1,0 +1,15 @@
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\GreeterClient.deps.json
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\GreeterClient.runtimeconfig.json
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\GreeterClient.runtimeconfig.dev.json
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\GreeterClient.dll
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\GreeterClient.pdb
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\Greeter.dll
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\bin\Debug\netcoreapp2.1\Greeter.pdb
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.csprojAssemblyReference.cache
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.AssemblyInfoInputs.cache
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.AssemblyInfo.cs
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.csproj.CoreCompileInputs.cache
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.csproj.CopyComplete
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.dll
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.pdb
+C:\grpc-poc\grpc\examples\csharp\Helloworld\GreeterClient\obj\Debug\netcoreapp2.1\GreeterClient.genruntimeconfig.cache

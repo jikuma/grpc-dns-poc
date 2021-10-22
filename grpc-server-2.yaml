@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-server-2
+spec:
+  selector:
+    matchLabels:
+      run: grpc-server-2
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        run: grpc-server-2
+    spec:
+      containers:
+      - name: grpc-server
+        image: msjikuma/grpcserver:option
+        env:
+        - name: instancename
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        ports:
+        - containerPort: 30051
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: grpc-server-2
+  labels:
+    run: grpc-server-2
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  type: LoadBalancer
+  loadBalancerIP: "10.0.111.228"
+  ports:
+  - port: 30051
+    protocol: TCP
+  selector:
+    run: grpc-server-2
+    
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: grpc-server-2-external
+  labels:
+    run: grpc-server-2-external
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 30051
+    protocol: TCP
+  selector:
+    run: grpc-server-2
+    
+

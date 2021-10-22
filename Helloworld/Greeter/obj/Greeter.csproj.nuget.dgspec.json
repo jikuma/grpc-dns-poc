@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\grpc-poc\\grpc\\examples\\csharp\\Helloworld\\Greeter\\Greeter.csproj": {}
+  },
+  "projects": {
+    "C:\\grpc-poc\\grpc\\examples\\csharp\\Helloworld\\Greeter\\Greeter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\grpc-poc\\grpc\\examples\\csharp\\Helloworld\\Greeter\\Greeter.csproj",
+        "projectName": "Greeter",
+        "projectPath": "C:\\grpc-poc\\grpc\\examples\\csharp\\Helloworld\\Greeter\\Greeter.csproj",
+        "packagesPath": "C:\\Users\\jikuma\\.nuget\\packages\\",
+        "outputPath": "C:\\grpc-poc\\grpc\\examples\\csharp\\Helloworld\\Greeter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jikuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.5"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/_packaging/AzureContainerRegistry/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.5": {
+            "targetAlias": "netstandard1.5",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.5": {
+          "targetAlias": "netstandard1.5",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Grpc.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

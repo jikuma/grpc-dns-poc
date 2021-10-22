@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-client
+spec:
+  selector:
+    matchLabels:
+      run: grpc-client
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: grpc-client
+    spec:
+      containers:
+      - name: grpc-client
+        image: msjikuma/grpcclient1:max_connection_time_40
+        env:
+        - name: serverip
+          value: "dns:///testservice.k8.int.azcr.io"
